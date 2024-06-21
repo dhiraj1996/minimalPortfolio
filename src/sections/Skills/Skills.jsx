@@ -10,7 +10,7 @@ function Skills() {
         <div className={styles.skillList}>
             <SkillList src={checkMarkIcon} skill="HTML"/>
             <SkillList src={checkMarkIcon} skill="Css"/>
-            <SkillList src={checkMarkIcon} skill="JavascriptL"/>
+            <SkillList src={checkMarkIcon} skill="Javascript"/>
             <SkillList src={checkMarkIcon} skill="React"/>
             <SkillList src={checkMarkIcon} skill="Node"/>
         </div>
