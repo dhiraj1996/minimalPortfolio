@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="section" className={styles.container}>
         <h1 className="sectionTitle">Contact</h1>
-        <form action="">
+        <form name="contact" netlify>
             <div className="formGroup">
                 <label htmlFor="name" hidden>
                     Name

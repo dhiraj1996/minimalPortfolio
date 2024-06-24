@@ -1,7 +1,9 @@
-import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import viber from "../../assets/viberr.png";
-import freshburger from "../../assets/fresh-burger.png"
+import myntraClone from "../../../public/myntraProject.png"
+// import myntraClone from "../../../public/myntraProject2.png"
+import SNS from "../../../public/Post-it-Home.png"
+
 import hipsster from "../../assets/hipsster.png"
 import fitLift from "../../assets/fitlift.png"
 import ProjectCard from "../../common/ProjectCard";
@@ -18,16 +20,16 @@ function Projects() {
           p="News App"
         />
         <ProjectCard
-          src={freshburger}
+          src={myntraClone}
           link="https://github.com/dhiraj1996/backendChai"
-          h3="Burger"
-          p="Burger App"
+          h3="Myntra Clone"
+          p="Shopping App"
         />
         <ProjectCard
-          src={hipsster}
+          src={SNS}
           link="https://github.com/dhiraj1996/backendChai"
-          h3="News"
-          p="News App"
+          h3="Post-IT"
+          p="Social Media App"
         />
         <ProjectCard
           src={fitLift}
