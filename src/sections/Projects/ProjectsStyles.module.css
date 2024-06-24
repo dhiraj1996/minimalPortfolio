@@ -18,6 +18,13 @@
         text-decoration: none;
         color: #222;
         transition: transform 200ms ease-in-out;
+
+        span {
+            display: inline-block;
+            /* flex-direction: row; */
+            
+            margin-left: 4px;
+        }
     }
     a:hover {
         transform: scale(1.05);
@@ -30,6 +37,18 @@
     align-items: center;
     gap: 30px;
     /* margin-bottom: 60px; */
+
+    
+}
+
+.cardContainer {
+    max-width: 250px;
+    transition: transform 200ms ease-in-out;
+
+    
+}
+.cardContainer:hover {
+    transform: scale(1.05);
 }
 
 @media (width >= 800px){
