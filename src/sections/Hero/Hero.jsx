@@ -55,7 +55,7 @@ function Hero() {
                 <br />
                 Ekka
             </h1>
-            <h2>Frontend Developer</h2>
+            <h2>React Developer</h2>
             <span>
                 <a href="https://github.com/dhiraj1996" target="_blank">
                     <img src={githubIcon} alt="github icon"/>
@@ -71,7 +71,8 @@ function Hero() {
                 With a passion for developing modern React Web apps.Enthusiastic and self-motivated web designer.Eager to join and bring my skill in frontend development, and visual design to every project that will be received in the future. 
                 
             </p>
-            <a href={CV} download>
+            {/* download */}
+            <a href="/" >
                 <button className="hover" >
                     Resume
                 </button>
