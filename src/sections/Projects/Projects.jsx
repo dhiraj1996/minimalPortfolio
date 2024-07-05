@@ -15,14 +15,14 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={newsPic}
-          link="https://github.com/dhiraj1996/backendChai"
+          link="https://github.com/dhiraj1996/jsNewsApp"
           h3="Live News"
           p="News App"
           label={["HTML","CSS","JAVASCRIPT","FETCH","NEWS-API"]}
         />
         <ProjectCard
           src={myntraClone}
-          link="https://github.com/dhiraj1996/backendChai"
+          link="https://myntraclonereact.netlify.app/"
           h3="Myntra Clone"
           p="Shopping App"
           label={["REACT","REDUX","HTML","CSS","BOOTSTRAP","JAVASCRIPT","FETCH","API"]}
@@ -30,7 +30,7 @@ function Projects() {
         />
         <ProjectCard
           src={SNS}
-          link="https://github.com/dhiraj1996/backendChai"
+          link="https://postitsns.netlify.app"
           h3="Post-IT"
           p="Social Media App"
           label={["REACT","CONTEXT-API", "BOOTSTRAP","HTML","CSS","JAVASCRIPT","FETCH","API"]}

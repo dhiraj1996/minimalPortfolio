@@ -18,7 +18,7 @@ import githubDark from "../../assets/github-dark.svg"
 import linkedLight from "../../assets/linkedin-light.svg"
 import linkedDark from "../../assets/linkedin-dark.svg"
 
-import CV from "../../assets/cv.pdf"
+import CV from "../../assets/DhirajEkkaResumeP.pdf"
 import { useTheme } from "../../common/ThemeContext"
 
 
@@ -72,7 +72,7 @@ function Hero() {
                 
             </p>
             {/* download */}
-            <a href="/" >
+            <a href={CV} download>
                 <button className="hover" >
                     Resume
                 </button>
