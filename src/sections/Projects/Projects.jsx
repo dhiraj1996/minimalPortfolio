@@ -22,7 +22,7 @@ function Projects() {
         />
         <ProjectCard
           src={myntraClone}
-          link="https://myntraclonereact.netlify.app/"
+          link="https://buythecloth.netlify.app/"
           h3="Myntra Clone"
           p="Shopping App"
           label={["REACT","REDUX","HTML","CSS","BOOTSTRAP","JAVASCRIPT","FETCH","API"]}
